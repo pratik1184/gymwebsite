@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pratik Fitness</title>
+</head>
+<link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+<style>
+    body {
+        font-family: 'Anton', sans-serif;
+        color: white;
+        margin: 0px;
+        padding: 0px;
+        background: url('img/man-ge5040ea96_1920.jpg');
+    }
+
+    .left {
+        display: inline-block;
+        
+        position: absolute;
+        left: 60px;
+        top: 10px;
+    }
+
+    .left img {
+        width: 90px;
+        filter: invert(100%);
+    }
+
+    .left div {
+        line-height: 1px;
+        font-size: 16px;
+        text-align: center;
+    }
+
+    .mid {
+        display: block;
+        width: 33%;
+        margin: 12px auto;
+       
+
+    }
+
+    .right {
+        position: absolute;
+        right: 32px;
+        top: 20px;
+        display: inline-block;
+   
+
+    }
+
+    .navbar {
+        display: inline-block;
+    }
+
+    .navbar li {
+
+        display: inline-block;
+        font-size: 15px;
+    }
+
+    .navbar li a {
+        color: white;
+        text-decoration: none;
+        padding: 10px 10px;
+    }
+
+    .navbar li a:hover,
+    .navbar li a:active {
+        text-decoration: underline;
+        color: gray;
+    }
+
+    .btn {
+        font-family: 'Anton', sans-serif;
+        margin: 0px 9px;
+        background-color: black;
+        color: white;
+        padding: 4px 14px;
+        border: 2px solid gray;
+        border-radius: 10px;
+        font-size: 20px;
+        cursor: pointer;
+
+    }
+
+    .btn:hover {
+        background-color: gray;
+    }
+
+    .container {
+        border: 2px solid white;
+        margin: 119px 22px;
+        padding: 65px;
+        width: 33%;
+        border-radius: 28px;
+    }
+    .form-group input{
+        font-family: 'Anton', sans-serif;
+        text-align: center;
+        display: block;
+        width: 300px;
+        padding: 0px;
+        border: 2px solid black;
+        margin: 3px auto;
+        font-size: 20px;
+        border-radius: 8px;
+    }
+    .container h1{
+        text-align: center;
+    }
+    .container button{
+        display: block;
+        width: 74%;
+        margin: 20px auto;
+    }
+</style>
+
+<body>
+    <header class="header">
+        <div class="left">
+            <img src="img/pngwing.com.png" alt="">
+            <div>Pratik Fitness</div>
+        </div>
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href"#" class="active">Home</a></li>
+                <li><a href"#">About Us</a></li>
+                <li><a href"#">Fitness Calculator</a></li>
+                <li><a href"#">Contact Us</a></li>
+            </ul>
+        </div>
+        <div class="right">
+            <button class="btn">Call Us</button><button class="btn">Email Us</button>
+        </div>
+    </header>
+    <div class="container">
+       <h1>join the best gym of pune now</h1>
+       <form action="noaction.php">
+           <div class="form-group">
+               <input type="text" name="" placeholder="Enter your name">
+           </div>
+           <div class="form-group">
+            <input type="text" name="" placeholder="Enter your age">
+        </div>
+        <div class="form-group">
+            <input type="text" name="" placeholder="Enter your gender">
+        </div>
+        <button class="btn">submit</button>
+       </form>
+    </div>
+
+</body>
+
+</html>
